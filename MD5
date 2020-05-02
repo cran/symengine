@@ -1,4 +1,4 @@
-aca76e72ba75f18cd695d3a18557c934 *DESCRIPTION
+d4518407b5b49e6efa3540ec27c4d376 *DESCRIPTION
 65b715ee5dfb2215bcd5de2a183a7a84 *NAMESPACE
 0677cbc15102321d36048f00330333ee *R/RcppExports.R
 3d8c0be17bfcffd8891663f656d7b68c *R/basic-getinfo.R
@@ -25,7 +25,7 @@ bd4834ec775f5bd2e9b9eff55733f6c7 *R/symbolic_array.R
 e954e47763d75f18373e1d1bbeaa20e9 *README.md
 dd4e2118c2693645544c136bbf16a741 *build/vignette.rds
 f6ae1ef9d9be537e65147564145f52c8 *cleanup
-f09e3ebc1602fa9752bdcc0cce4aa14f *configure
+2376790fa38fc98706f80f717b5d16f9 *configure
 d41d8cd98f00b204e9800998ecf8427e *configure.win
 7e66063372c0d6ef0b7605afebb6b530 *inst/AUTHORS
 83f90d5173398763d5202349ed041057 *inst/COPYRIGHTS
@@ -60,7 +60,7 @@ f0d3193a6f8aba13b71b6ffaf5285e29 *man/solve.Rd
 01e445da5957a9ef6a3c9a991a6bef75 *man/t.Rd
 b67a16be17a3673d5207632f05851144 *man/use_vars.Rd
 30bc69b4ff4248ecce34e2de1bd93e7c *man/vecbasic-bindings.Rd
-d7514b848f7e778bc45050e2a4230a76 *src/Makevars.in
+b51a2f55e4a8c3664ea3651d4c309f62 *src/Makevars.in
 e1c0b7d5c11816b8fd7cc808b4eead74 *src/Makevars.win
 6b874d6a2340503d0c1d6d46e2c89276 *src/RcppExports.cpp
 66b82b40acac669a6427be32f5c8b6c9 *src/rbinding.cpp
