@@ -1,6 +1,6 @@
 Package: symengine
 Title: Interface to the 'SymEngine' Library
-Version: 0.2.3
+Version: 0.2.4
 Authors@R: c(person("Jialin", "Ma", email="marlin@inventati.org", role = c("cre", "aut")),
              person("Isuru", "Fernando", email="isuruf@gmail.com", role = c("aut")),
              person("Xin", "Chen", email="xinchen.tju@gmail.com", role = c("aut")))
@@ -35,10 +35,10 @@ Collate: 'RcppExports.R' 'basic-getinfo.R' 'classes.R' 'basic.R'
         'zzz.R'
 VignetteBuilder: knitr
 NeedsCompilation: yes
-Packaged: 2023-12-08 00:05:35 UTC; jma1
+Packaged: 2023-12-09 22:20:56 UTC; jma1
 Author: Jialin Ma [cre, aut],
   Isuru Fernando [aut],
   Xin Chen [aut]
 Maintainer: Jialin Ma <marlin@inventati.org>
 Repository: CRAN
-Date/Publication: 2023-12-08 11:00:02 UTC
+Date/Publication: 2023-12-11 13:20:02 UTC
