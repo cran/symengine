@@ -1,3 +1,7 @@
+## ----eval=TRUE, include=FALSE-------------------------------------------------
+if (!all(sapply(c("odeintr"), requireNamespace, quietly = TRUE)))
+  knitr::opts_chunk$set(eval = FALSE)
+
 ## -----------------------------------------------------------------------------
 library(symengine)
 

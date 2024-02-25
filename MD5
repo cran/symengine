@@ -1,4 +1,4 @@
-d2d2b95dc5e048a9180b6df7d25f2e57 *DESCRIPTION
+f7219ee45143caf1c9b7916168a28178 *DESCRIPTION
 4a49181747030474b25e02f9cc8e7aa3 *NAMESPACE
 0677cbc15102321d36048f00330333ee *R/RcppExports.R
 3d8c0be17bfcffd8891663f656d7b68c *R/basic-getinfo.R
@@ -6,7 +6,7 @@ a821f3b7f4953b54d98c9356f77f1a8e *R/basic.R
 4b04d54bb9a8551a494c87c685852fe2 *R/classes.R
 5532901709abe7ca8dd1644e0c848cea *R/codegen.R
 1d64420cbff7b37a2ec57f4b35449160 *R/double_visitor.R
-94c7a1fb63f0a12c082d3171d9f49ed8 *R/dxdt.R
+5547bcc8b44508828fb96a2add12f865 *R/dxdt.R
 0118386b3c07a5557d3a3c62c73f21ab *R/function_symbol.R
 99ab65461a915990d60f28bc39feefa2 *R/knitr.R
 36dd7428a6e591cc05e78b271ae1d02f *R/lambdify.R
@@ -30,8 +30,8 @@ ebd285288ad8d58ec3be5f4f4094b7ca *configure
 ebd285288ad8d58ec3be5f4f4094b7ca *configure.win
 7e66063372c0d6ef0b7605afebb6b530 *inst/AUTHORS
 619df312f19ea4996698c795d12257a6 *inst/COPYRIGHTS
-89f5cfc18aee411ba9c0db72d75dc34f *inst/doc/odesystem.R
-1fc8a55ca544fb37fc656f579d223b4f *inst/doc/odesystem.Rmd
+a7773a50ac0f72ff2092b2f13ef9125f *inst/doc/odesystem.R
+3fbe261fff31c8b4eea8b8aa5828ad73 *inst/doc/odesystem.Rmd
 3d0d0f5930052362a23d315440b8fd15 *inst/doc/odesystem.html
 85205f88e0a07f80b883ae788884b400 *inst/doc/quick_start.R
 2e8dfe8339347c3167184213af23fe07 *inst/doc/quick_start.Rmd
@@ -40,7 +40,7 @@ b7bc51c2e7eaca5e5324db87e3e508df *man/D-SymEngineDataType-method.Rd
 0682a6d4449008722b7a22362c25c68d *man/DoubleVisitor.Rd
 31ee080d614d338b96f7fdbdace19a01 *man/FunctionSymbol.Rd
 7c600b90a5d45ea0b5c63512d1418cff *man/Matrix.Rd
-1c237dc44b80823abc6cdeacb1d3dde1 *man/ODESystem.Rd
+d9c476f6ef8a34d109da795543be5a16 *man/ODESystem.Rd
 7fb4a5da1da3bdae92c6c6a94a2c9211 *man/S.Rd
 bc2bc02c0bc7ef49ada4cd2ca75389c8 *man/Vector.Rd
 3e3ea2e1578815636ee8d4e20aab4d96 *man/basic-getinfo.Rd
@@ -65,7 +65,7 @@ a2c7751b094dd3a5a184581a58906aa3 *src/Makevars.in
 63ee3613e14cb007fb8661e51426652a *src/RcppExports.cpp
 5ae48b04e0ad12f7d01ff0375e5d48c9 *src/rbinding.cpp
 fe8fdd7c96e4a65b42190919defc0f54 *src/rbinding.h
-7e012f05cc83c6405092864a30bd39c7 *src/upstream.tar
+f96ae7eea4dd0d11e49118172233e4e7 *src/upstream.tar
 f66c1f70cb98d57bca58046badf11dc1 *tests/testthat.R
 0142b5c0e73b5f8e00bf5ee96bbf7027 *tests/testthat/test-ODESystem.R
 e6a2e4c60ffbd0a0a19dc62f0a56f3bb *tests/testthat/test-basic_function_symbol.R
@@ -92,10 +92,11 @@ d7b346d5829ff765ff72bc38411c584a *tools/cran_comments/cran-comments_0.1.6.md
 53202327336f1fc93089a2b329e2c648 *tools/cran_comments/cran-comments_0.2.1.md
 6f7d06269a32b5a656c0772177d561ec *tools/cran_comments/cran-comments_0.2.2.md
 0fd1be8144a8a681347d897f5b11f58f *tools/cran_comments/cran-comments_0.2.3.md
+1b263c7739853a78ad80856860550cf4 *tools/cran_comments/cran-comments_0.2.4.md
 44e17ca3527a9392fe49a6812bb2a4dd *tools/download_macos_cranlibs.sh
 1c4e1cc39f81678d6784e0ccecfa4f5c *tools/release_procedure.md
 1852ff4a9090f84e2fb9e6b44ae08df7 *tools/symengine_patch.diff
 d55a2741f281f3eee78b3994ab862fe5 *tools/translate_to_cmake_flags.R
 d757d3bb663af79f555f4a6ceb58078d *tools/winlibs.R
-1fc8a55ca544fb37fc656f579d223b4f *vignettes/odesystem.Rmd
+3fbe261fff31c8b4eea8b8aa5828ad73 *vignettes/odesystem.Rmd
 2e8dfe8339347c3167184213af23fe07 *vignettes/quick_start.Rmd
