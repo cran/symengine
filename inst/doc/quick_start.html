@@ -48,6 +48,7 @@ overflow: visible;
 }
 </style>
 <style type="text/css" data-origin="pandoc">
+html { -webkit-text-size-adjust: 100%; }
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
@@ -414,29 +415,29 @@ margin-left: 0px;
 <div id="expand-an-expression" class="section level3">
 <h3>Expand an expression</h3>
 <div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" tabindex="-1"></a><span class="fu">use_vars</span>(x, y, z, <span class="at">.quiet =</span> <span class="cn">TRUE</span>)</span>
-<span id="cb5-2"><a href="#cb5-2" tabindex="-1"></a>expr <span class="ot">&lt;-</span> (x <span class="sc">+</span> y <span class="sc">+</span> z) <span class="sc">^</span> 2L <span class="sc">-</span> 42L</span>
+<span id="cb5-2"><a href="#cb5-2" tabindex="-1"></a>expr <span class="ot">&lt;-</span> (x <span class="sc">+</span> y <span class="sc">+</span> z) <span class="sc">^</span> <span class="dv">2</span><span class="dt">L</span> <span class="sc">-</span> <span class="dv">42</span><span class="dt">L</span></span>
 <span id="cb5-3"><a href="#cb5-3" tabindex="-1"></a><span class="fu">expand</span>(expr)</span></code></pre></div>
 <pre><code>## (Add)    -42 + 2*x*y + 2*x*z + 2*y*z + x^2 + y^2 + z^2</code></pre>
 </div>
 <div id="substitute-variables" class="section level3">
 <h3>Substitute variables</h3>
-<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" tabindex="-1"></a>expr <span class="ot">&lt;-</span> (x <span class="sc">+</span> y <span class="sc">+</span> z) <span class="sc">^</span> 2L <span class="sc">-</span> 42L</span>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" tabindex="-1"></a>expr <span class="ot">&lt;-</span> (x <span class="sc">+</span> y <span class="sc">+</span> z) <span class="sc">^</span> <span class="dv">2</span><span class="dt">L</span> <span class="sc">-</span> <span class="dv">42</span><span class="dt">L</span></span>
 <span id="cb7-2"><a href="#cb7-2" tabindex="-1"></a>expr <span class="ot">&lt;-</span> <span class="fu">subs</span>(expr, z, <span class="fu">S</span>(<span class="st">&quot;a&quot;</span>))</span>
-<span id="cb7-3"><a href="#cb7-3" tabindex="-1"></a>expr <span class="ot">&lt;-</span> <span class="fu">subs</span>(expr, y, x<span class="sc">^</span>2L)</span>
+<span id="cb7-3"><a href="#cb7-3" tabindex="-1"></a>expr <span class="ot">&lt;-</span> <span class="fu">subs</span>(expr, y, x<span class="sc">^</span><span class="dv">2</span><span class="dt">L</span>)</span>
 <span id="cb7-4"><a href="#cb7-4" tabindex="-1"></a>expr</span></code></pre></div>
 <pre><code>## (Add)    -42 + (a + x + x^2)^2</code></pre>
 </div>
 <div id="compute-derivatives" class="section level3">
 <h3>Compute derivatives</h3>
 <div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" tabindex="-1"></a><span class="fu">use_vars</span>(x, y, <span class="at">.quiet =</span> <span class="cn">TRUE</span>)</span>
-<span id="cb9-2"><a href="#cb9-2" tabindex="-1"></a>expr <span class="ot">&lt;-</span> (x <span class="sc">+</span> 2L<span class="sc">*</span><span class="fu">sin</span>(y))<span class="sc">^</span>3L</span>
+<span id="cb9-2"><a href="#cb9-2" tabindex="-1"></a>expr <span class="ot">&lt;-</span> (x <span class="sc">+</span> <span class="dv">2</span><span class="dt">L</span><span class="sc">*</span><span class="fu">sin</span>(y))<span class="sc">^</span><span class="dv">3</span><span class="dt">L</span></span>
 <span id="cb9-3"><a href="#cb9-3" tabindex="-1"></a><span class="fu">D</span>(expr, y)</span></code></pre></div>
 <pre><code>## (Mul)    6*cos(y)*(x + 2*sin(y))^2</code></pre>
 </div>
 <div id="solve-a-polynomial-equation" class="section level3">
 <h3>Solve a polynomial equation</h3>
 <div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" tabindex="-1"></a>a <span class="ot">&lt;-</span> <span class="fu">Symbol</span>(<span class="st">&quot;a&quot;</span>)</span>
-<span id="cb11-2"><a href="#cb11-2" tabindex="-1"></a>poly <span class="ot">&lt;-</span> x<span class="sc">^</span>2L <span class="sc">+</span> 2L<span class="sc">*</span>a<span class="sc">*</span>x <span class="sc">+</span> a<span class="sc">^</span>2L</span>
+<span id="cb11-2"><a href="#cb11-2" tabindex="-1"></a>poly <span class="ot">&lt;-</span> x<span class="sc">^</span><span class="dv">2</span><span class="dt">L</span> <span class="sc">+</span> <span class="dv">2</span><span class="dt">L</span><span class="sc">*</span>a<span class="sc">*</span>x <span class="sc">+</span> a<span class="sc">^</span><span class="dv">2</span><span class="dt">L</span></span>
 <span id="cb11-3"><a href="#cb11-3" tabindex="-1"></a><span class="fu">solve</span>(poly, x)</span></code></pre></div>
 <pre><code>## VecBasic of length 1
 ## V( -a )</code></pre>
@@ -470,7 +471,7 @@ margin-left: 0px;
 <div id="construct-a-symbolic-matrix-with-rbind" class="section level3">
 <h3>Construct a symbolic matrix with <code>rbind</code></h3>
 <div class="sourceCode" id="cb19"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" tabindex="-1"></a>vec <span class="ot">&lt;-</span> <span class="fu">Vector</span>(x, y, z)</span>
-<span id="cb19-2"><a href="#cb19-2" tabindex="-1"></a><span class="fu">rbind</span>(vec, vec<span class="sc">^</span>2L<span class="sc">-</span>1L)</span></code></pre></div>
+<span id="cb19-2"><a href="#cb19-2" tabindex="-1"></a><span class="fu">rbind</span>(vec, vec<span class="sc">^</span><span class="dv">2</span><span class="dt">L</span><span class="dv">-1</span><span class="dt">L</span>)</span></code></pre></div>
 <pre><code>## DenseMatrix of dim 2 x 3
 ## [x, y, z]
 ## [-1 + x**2, -1 + y**2, -1 + z**2]</code></pre>
