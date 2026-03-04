@@ -1,4 +1,4 @@
-1b556b152fc9d6c31f022531b1129dec *DESCRIPTION
+b903486b043be24293165f71d552a87d *DESCRIPTION
 3570d0a8787831f439a3579070c3d84f *NAMESPACE
 0677cbc15102321d36048f00330333ee *R/RcppExports.R
 3d8c0be17bfcffd8891663f656d7b68c *R/basic-getinfo.R
@@ -22,7 +22,7 @@ bed9b1b907e5961f95d18bfd02ef5dc0 *R/summary.R
 fdc10326db3e8acc119c4273dd8cd809 *R/vector.R
 8eaf75f4f54f2fe074a5066617c6c3cf *R/zzz.R
 2f16978c3e07863ab584b4fe5f3f920f *README.md
-f32a1a412de83d3587093eed7c79224f *build/vignette.rds
+5f0f7362e08f13d7d5b24deb37817ffa *build/vignette.rds
 200771a3db5768970848369423c30755 *cleanup
 200771a3db5768970848369423c30755 *cleanup.win
 ebd285288ad8d58ec3be5f4f4094b7ca *configure
@@ -60,7 +60,7 @@ a2c7751b094dd3a5a184581a58906aa3 *src/Makevars.in
 63ee3613e14cb007fb8661e51426652a *src/RcppExports.cpp
 7d217e1a3d7da43533804676ec509c2f *src/rbinding.cpp
 fe8fdd7c96e4a65b42190919defc0f54 *src/rbinding.h
-7eeaa56aacb27a9dcb7e8689189dc738 *src/upstream.tar
+acb7a8b9beb7f6d9594b792fe32c78c5 *src/upstream.tar
 f66c1f70cb98d57bca58046badf11dc1 *tests/testthat.R
 e6a2e4c60ffbd0a0a19dc62f0a56f3bb *tests/testthat/test-basic_function_symbol.R
 9f2b8e51e8b2ab7bc9461d18bf393691 *tests/testthat/test-basic_inspect.R
@@ -81,7 +81,7 @@ c28e8e19624694806d6f9a62be9d10ad *tests/testthat/test-summary.R
 d41d8cd98f00b204e9800998ecf8427e *tools/SYMENGINE_BUNDLED
 34256180fa7d8f731236cd1958f79829 *tools/build_doc_site.R
 dd55997c270ad48c00e8b14e5fc38bc0 *tools/build_doc_site_asset/index.Rmd
-50e9d690b8544e4414876a90c17126dc *tools/bundle_symengine_source.sh
+9338086cc20b1bdfe3ba3916566d298e *tools/bundle_symengine_source.sh
 d7b346d5829ff765ff72bc38411c584a *tools/cran_comments/cran-comments_0.1.6.md
 53202327336f1fc93089a2b329e2c648 *tools/cran_comments/cran-comments_0.2.1.md
 6f7d06269a32b5a656c0772177d561ec *tools/cran_comments/cran-comments_0.2.2.md
@@ -91,7 +91,7 @@ a0a8c72fc08966bd596c3dac416bffbf *tools/cran_comments/cran-comments_0.2.7.md
 a6dfbf755e94680903d8c922ae32732d *tools/cran_comments/cran-comments_0.2.9.md
 44e17ca3527a9392fe49a6812bb2a4dd *tools/download_macos_cranlibs.sh
 1c4e1cc39f81678d6784e0ccecfa4f5c *tools/release_procedure.md
-87c8059667d32448485a6cb1fa1239b5 *tools/symengine_patch.diff
+8fc692367a09b4a0f2c9536e72c840f4 *tools/symengine_patch.diff
 d55a2741f281f3eee78b3994ab862fe5 *tools/translate_to_cmake_flags.R
 d757d3bb663af79f555f4a6ceb58078d *tools/winlibs.R
 2e8dfe8339347c3167184213af23fe07 *vignettes/quick_start.Rmd
